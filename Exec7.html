@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 7</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+
+</head>
+
+<script>
+
+    $(document).ready(function(){
+
+        $("#idLogin").focus(function(){
+            $("#idLogin").val('');
+        });
+
+        $("#idLogin").focusout(function(){
+            $("#idLogin").val('Digite aqui seu login');
+        });
+
+    });
+
+</script>
+
+<body>
+
+    <div>
+        <input type="text" id="idLogin" value="Digite aqui seu login" class="form-control" style="width:200px;">
+
+    </div>
+
+</body>
+
+</html>

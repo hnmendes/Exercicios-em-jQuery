@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 5</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+
+</head>
+
+<script>
+    $(document).ready(function(){
+        $("#btnnome").click(function(){
+            var nome = $("#nome").val();
+            var sobrenome = $("#sbnome").val();
+
+            if(nome == "" && sobrenome == ""){
+              $("#nome").css({"background-color":"red"});
+              $("#sbnome").css({"background-color":"red"});
+            }else if(nome == ""){
+              $("#nome").css({"background-color":"red"});
+            }else if(sobrenome == ""){
+              $("#sbnome").css({"background-color":"red"});
+            }else if(nome != "" && sobrenome != ""){
+              $("#nconcatenado").html(nome+" "+sobrenome);
+            }
+
+        });
+    });
+</script>
+
+<body>
+    <div>
+        <input type="text" placeholder="Nome" id="nome" class="form-control" style="width:300px;">
+        <input type="text" placeholder="Sobrenome" id="sbnome" class="form-control" style="width:300px;">
+
+        <button class="btn" id="btnnome">Nome Completo</button>
+    </div>
+
+    <br><br>
+
+    <h1 id="nconcatenado"></h1>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 6</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+
+</head>
+
+<script>
+    $(document).ready(function(){
+
+      $("#aumentar").click(function(){
+          $("p").css({"font-size":"80px"});
+      });
+
+      $("#diminuir").click(function(){
+          $("p").css({"font-size":"10px"});
+      });
+
+    });
+</script>
+
+<body>
+
+    <div>
+        <p>PARAGRAFO 1</p>
+        <p>PARAGRAFO 2</p>
+        <br>
+        <a class="btn btn-primary" id="aumentar">Aumentar(+)</a>&nbsp;&nbsp;
+        <a class="btn btn-primary" id="diminuir">Diminuir(-)</a>
+    </div>
+
+</body>
+
+</html>

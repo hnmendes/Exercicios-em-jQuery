@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="utf-8">
+      <title>Exercício 2</title>
+      <script src="jquery-3.3.1.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+      <script src="bootstrap.min.js"></script>
+
+</head>
+
+<script>
+      $(document).ready(function(){
+          $("a").click(function(){
+            $(".borda").css({"border-style":"dashed","border-color":"blue","border-width":"4px"});
+          });
+      });
+</script>
+
+<body>
+<center>
+
+  <div class="container">
+    <a href="#" class="btn btn-primary">Link qualquer</a>
+  </div>
+
+  <p class="borda">testando a borda</p>
+
+</center>
+
+</body>
+
+</html>
