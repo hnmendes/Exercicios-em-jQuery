@@ -52,7 +52,7 @@ para receber o sobrenome;
   Adicione um botão na página HTML chamado Nome Completo;
   
   
-  Implemente uma função jQuery que valide se os dois campos estão preenchidos, se algum deles não estiver preenchido, coloque uma cor de fundo no campo que não estiver preenchido. Caso os dois campos estejam preenchidos, imprima em uma tag<H1> os dois nomes concatenados.
+  Implemente uma função jQuery que valide se os dois campos estão preenchidos, se algum deles não estiver preenchido, coloque uma cor de fundo no campo que não estiver preenchido. Caso os dois campos estejam preenchidos, imprima em uma tag <'H1'> os dois nomes concatenados.
 
 6 Implemente o seguinte exercício com jQuery:
 
