@@ -49,7 +49,6 @@ foco, seja pintado a terceira DIV de preto e a cor da fonte dessa DIV de branco;
   Adicione dois campos texto em uma página HTML, um para receber o nome e outro
 para receber o sobrenome;
   
-  
   Adicione um botão na página HTML chamado Nome Completo;
   
   
