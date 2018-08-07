@@ -12,13 +12,13 @@ Desenvolvimento para WEB II
 CONSIDERANDO OS CONCEITOS ESTUDADOS NAS AULAS, RESOLVA AS SEGUINTES QUESTÕES:
 
 
-###### 1 Utilizando os comandos aprendidos na aula de jQuery, crie um comando que exiba uma mensagem, avisando ao usuário que ele clicou em um link.
+#### 1 Utilizando os comandos aprendidos na aula de jQuery, crie um comando que exiba uma mensagem, avisando ao usuário que ele clicou em um link.
 
 
-###### 2 Crie um comando que, quando o usuário clicar no link, o navegador adicione uma bordaazul, com 4 pixels de espessura e que seja tracejada, esta formatação deve ser uma classe CSS.
+#### 2 Crie um comando que, quando o usuário clicar no link, o navegador adicione uma bordaazul, com 4 pixels de espessura e que seja tracejada, esta formatação deve ser uma classe CSS.
 
 
-###### 3 Implemente o seguinte exercício com jQuery:
+#### 3 Implemente o seguinte exercício com jQuery:
 
 Crie uma página HTML com três DIVs (com algum texto nelas), dois botões e um
 campo texto;
