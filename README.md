@@ -57,9 +57,9 @@ para receber o sobrenome;
 
 6 Implemente o seguinte exercício com jQuery:
 
-Adicione três parágrafos com algum texto em uma página HTML; Adicione dois links nessa página com as seguintes descrições:
-◦ Aumentar (+);
-◦ Diminuir (-);
+Adicione três parágrafos com algum texto em uma página HTML;Adicione dois links nessa página com as seguintes descrições:
+  Aumentar (+);
+  Diminuir (-);
 
 Implemente uma função jQuery que ao o usuário clicar no link Aumentar, o tamanho da fonte de todos os parágrafos deverá ser aumentada. Ao o usuário clicar no link Diminuir, o tamanho da fonte de todos os parágrafos deverá ser diminuída.
 
